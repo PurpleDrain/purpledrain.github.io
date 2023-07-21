@@ -1,14 +1,47 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 
 <head>
-    <title>
-        準備中
-    </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Greeting</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway+Dots&family=Zen+Maru+Gothic:wght@500&display=block"
+        rel="preload" as="style">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway+Dots&family=Zen+Maru+Gothic:wght@500&display=block"
+        rel="stylesheet">
+    <link href="/dist/output.css" rel="stylesheet">
+    <script src="/dist/fitty.min.js"></script>
 </head>
 
 <body>
-    <h1>準備中 kurihara</h1>
+    <div class="h-screen p-10 relative wrapper mx-auto aspect-[16/9]">
+        <div>
+            <h1
+                class="page-title text-3xl font-bold text-center font-raleway-dots full-width-font font-thin text-center">
+                WELCOME TO OUR WEDDING!
+            </h1>
+        </div>
+        <div class="flex h-5/6 mt-5">
+            <div class="img-wrap basis-4/12">
+                <img src="/img/kurihara.jpg" alt="A picture" class="w-full h-auto aspect-[2/3]">
+            </div>
+            <div
+                class="basis-8/12 flex items-center justify-center bg-[url('/img/bg_web.svg')] bg-no-repeat bg-[right_bottom_1rem] bg-[length:100%_100%] bg-position">
+                <div class="font-zen-maru text-7xl w-11/12 text-shadow ml-20">
+                    <p class="mt-20">えりら</p>
+                    <p class="mt-6 leading-normal">
+                        東京からはるばると<br>来てくれてありがとうね〜！<br>
+                        久しぶりに集合できたからたくさんお喋りしようね〜！
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        fitty('.page-title');
+    </script>
 </body>
 
 </html>

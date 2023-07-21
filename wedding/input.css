@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+    height: 100%;
+}
+
+.wrapper {
+    min-width: 1280px;
+    min-height: 720px;
+    max-width: 2560px;
+    max-height: 1440px;
+}
+
+.full-width-font {
+    font-size: 10vw;
+    line-height: 100%;
+}
+
+.img-wrap {
+    height: auto;
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    margin: 0;
+    object-fit: fit;
+}
+
+.bg-position {
+    background-position: 215px 33px;
+}
+
+.text-shadow {
+    text-shadow: -2px 0 #ffffff, 0 2px white, 2px 0 white, 0 -2px white;
+}
